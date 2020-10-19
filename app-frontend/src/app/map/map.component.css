@@ -1,0 +1,21 @@
+agm-map {
+    height: 350px;
+    width: 100%;
+
+  }
+  a:link, a:visited {
+    background-color: #639cd1;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 136, 0);
+    border-radius: 25px;
+
+  }

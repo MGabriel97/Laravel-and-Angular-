@@ -1,0 +1,37 @@
+
+<div class="rightt">
+  <label id="lbltipAddedComment"></label>
+
+  <div *ngIf="isaut=='false'">
+    <p>{{translations[lgstored][0]}}</p>
+    <button (click)="saveDataEn()">English</button>
+    <button (click)="saveDataRo()">Romana</button>
+    <a routerLinkActive="active current"  routerLink="/register" id="register">Register</a>
+    <a routerLinkActive="active current"  routerLink="/login">Login</a>
+  </div>
+  <div *ngIf="isaut=='true'">
+    <p>{{translations[lgstored][0]}}</p>
+    <button (click)="saveDataEn()">English</button>
+    <button (click)="saveDataRo()">Romana</button>
+    <p>Welcome back {{welcome}}</p>
+    <a routerLinkActive="active current"  routerLink="/profile" id="profile">Profile page</a>
+    <a routerLinkActive="active current" (click)="onSubmit()"  >Logout</a>
+
+  </div>
+</div>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<div class="left">
+    <a  routerLinkActive="active current" routerLink="/home">{{translations[lgstored][1]}}</a>
+    <a routerLinkActive="active current"  routerLink="/news">{{translations[lgstored][2]}}</a>
+    <a routerLinkActive="active current"  routerLink="/about">{{translations[lgstored][3]}}</a>
+    <a routerLinkActive="active current"  routerLink="/student">{{translations[lgstored][4]}}</a>
+    <a routerLinkActive="active current"  routerLink="/coordonator">{{translations[lgstored][5]}}</a>
+    <a routerLinkActive="active current"  routerLink="/contact">Contact</a>
+    
+  </div>
+  <div class="right"><h2>Forum</h2></div>

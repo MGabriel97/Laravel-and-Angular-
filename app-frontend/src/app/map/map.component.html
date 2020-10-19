@@ -1,0 +1,14 @@
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5R-OZ-dIeCjg_FgGY23p9yU9MOON5h0Y&callback=initMap"
+type="text/javascript"></script>
+<agm-map [zoom]="7" [latitude]="latCluj" [longitude]="lngCluj"> 
+    <agm-marker [latitude]="latOrigin" [longitude]="lngOrigin">
+     </agm-marker> 
+     <agm-marker [latitude]="latCluj" [longitude]="lngCluj">
+    </agm-marker> 
+    <agm-direction 
+    [origin]="origin" 
+    [destination]="destination"
+></agm-direction>
+  </agm-map>
+  <a [href]="googleMaps">Show on Gooogle Maps</a>
+    

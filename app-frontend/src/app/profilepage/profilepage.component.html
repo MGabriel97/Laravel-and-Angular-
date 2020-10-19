@@ -1,0 +1,63 @@
+<div id="grad1">
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px" style="background-color:white;" id="corners">
+      
+
+        <button class="button">Profile picture</button>
+        <img src="http://127.0.0.1:8000/api/getdataimage/{{dataProfileID}}"  class="img-thumbnail" width="175" />
+      <input
+  style="display: none"
+  type="file" (change)="onFileChanged($event)"
+  #fileInput>
+  <div class="form-group">
+    <div class="row">
+     <label class="col-md-4" align="right">Name</label>
+     <div class="col-md-8">
+      <input id="user_name" type="text"  value={{dataProfileName}} class="form-control" />
+     </div>
+    </div>
+   </div>
+
+   <div class="form-group">
+    <div class="row">
+     <label class="col-md-4" align="right">Email</label>
+     <div class="col-md-8">
+      <input id="user_email" type="text" value={{dataProfileEmail}} name="user_email" class="form-control" />
+     </div>
+    </div>
+   </div>
+
+   <div class="form-group">
+    <div class="row">
+     <label class="col-md-4" align="right">Password</label>
+     <div class="col-md-8">
+      <input id="user_password" type="password" value={{dataProfilePassword}} name="user_password" class="form-control" />
+     </div>
+    </div>
+   </div>
+   <select [(ngModel)]="selectedOption" multiple>
+    <option *ngFor="let o of options">
+       {{o.name}}
+    </option>
+ </select>
+ <p>Hold down the Ctrl (windows) or Command (Mac) button to select multiple options</p>
+ 
+   <div class="form-group">
+    <div class="row">
+     <label class="col-md-4" align="right">Domains</label>
+     <div class="col-md-8">
+      <input id="user_domains" type="text" value={{selectedOption}} name="user_domains" class="form-control" />
+     </div>
+    </div>
+   </div>
+   <button (click)="editProfile()">Edit profile</button>
+
+<button (click)="fileInput.click()">Select a file for profile</button>
+<button (click)="onUpload()">Upload profile picture</button>
+
+
+
+       
+    </div>
+    </div>
+  </div>

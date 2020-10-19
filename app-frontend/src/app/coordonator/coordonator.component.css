@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+  }
+  .mesaj
+  {
+    border-radius: 25px;
+    padding: 20px; 
+    background-image: linear-gradient(to right,rgb(89, 0, 255) ,rgb(130, 164, 238));
+    height: 500px;  
+    text-align: middle;
+  }
+  #corners {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 900px;
+    height: 550px;  
+    background-image: linear-gradient(to right,rgb(153, 0, 255) ,rgb(76, 0, 255)); /* Standard syntax (must be last) */
+    margin-top:100px;
+    margin-left:200px;
+    margin-bottom:200px;
+
+  }
+  .contact
+  {
+    text-align: center;
+
+  }
+  .contact h2{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;/*text-align: center;                   removed  */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 115px;                  /*  added  */
+
+  }
+
+  h1
+  {
+    margin-top:20px; /*to have the space above the image*/
+    color:white;
+    font-weight: normal;
+    font-size: 17px;
+    padding:3px 3px 3px 6px;
+    letter-spacing: 2px;
+    line-height: 250%;
+
+
+  }
+
+  p{
+    display: inline-block;
+     /*to have the space above the image*/
+     line-height: 200%;
+
+  }
+  .contact h1,
+  .contact p{
+    display: inline;
+  }

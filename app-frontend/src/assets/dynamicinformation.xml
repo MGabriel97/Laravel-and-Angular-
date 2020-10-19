@@ -1,0 +1,18 @@
+<div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center padding-64"><span class="w3-tag w3-wide">Tehnologie</span></h5>
+      <p>Angular este o platforma de creare a site-ului cu sursa deschisa pentru a limita TypeScript. Proiectul este stabilit de Echipa unghiulara a Google ?i de comunitate de utilizatori individuali ?i de a folosi. Este unghiulara sau se rezolva complet, pâna la aceea?i echipa, un cadru angularJS.</p>
+      <p>Ini?ial, versiunea rescrisa a AngularJS a fost numita "Angular 2" de echipa, însa acest lucru a provocat confuzie printre dezvoltatori. De aceea, echipa a anun?at ca "AngularJS" se va referi la versiunile 1.X ?i "Angular" (fara "JS") la versiunile 2 ?i ulterioare</p>
+    </div>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9" align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pTec1e8oyc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+</div>
+
+<div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center padding-64"><span class="w3-tag w3-wide">Tutorial</span></h5>
+      <p>Acest tutorial este special conceput pentru a va ajuta sa înve?e AngularJS cât mai repede ?i mai eficient posibil. În primul rând, ve?i înva?a elementele de baza ale AngularJS: directive, expresii, filtre, module, ?i controlere.Atunci vei înva?a tot ce trebuie sa ?ti?i despre AngularJS:Evenimente, DOM, Formulare, de intrare, de validare, HTTP, ?i multe altele.</p>
+    </div>
+</div>

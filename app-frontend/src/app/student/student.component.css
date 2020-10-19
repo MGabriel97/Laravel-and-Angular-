@@ -1,0 +1,60 @@
+#grad1 {
+    height: 800px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,rgb(89, 0, 255) ,rgb(130, 213, 238)); /* Standard syntax (must be last) */
+  }
+
+  #corners {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 900px;
+    height: 550px;  
+    margin-top:150px;
+    margin-left:200px;
+
+  }
+  #corners h1,
+  #corners p{
+    display: inline;
+  }
+ 
+
+  h1
+  {
+    margin-top:20px; /*to have the space above the image*/
+    color: #006bb6;
+    font-weight: normal;
+    font-size: 17px;
+    padding:3px 3px 3px 6px;
+    border-left:2px solid rgb(0, 102, 255);
+    display:block;
+    letter-spacing: 2px;
+    line-height: 250%;
+
+
+  }
+  h2 {
+    font-size: 23px;
+
+    border-bottom: 1px solid rgb(0, 102, 255);
+    padding-bottom: 5px;
+    margin-top:80px; /*to have the space above the image*/
+    margin-left:20px; /*to have the space above the image*/
+    margin-right:20px; /*to have the space above the image*/
+
+    }
+
+  img {
+    border-radius: 25px;
+    margin-left:20px; /*to have the space above the image*/
+    margin-right:20px; /*to have the space under the image*/
+    margin-top:40px; /*to have the space above the image*/
+
+  }
+  p{
+    display: inline-block;
+     /*to have the space above the image*/
+     line-height: 200%;
+
+
+  }
